@@ -1,0 +1,20 @@
+[project]
+name = "project_name"
+version = "0.1.0"
+description = "Example project template"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "python-dotenv",
+]
+
+# ## Uncomment and configure custom PyPI indexes if needed
+# [[tool.uv.index]]
+# url = "<your-private-pypi-index-url>"
+# default = true
+# [[tool.uv.index]]
+# url = "https://pypi.org/simple/"
+
+
+## UV command to create `requirements.txt` from `pyproject.toml`
+## uv pip compile pyproject.toml -o requirements.txt
